@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react'
 import { useSpring } from '@react-spring/core'
 import { a } from "@react-spring/three" 
 
+//make sure to export and import in app.js
 export const Box = ({ position }) => {
     const [ active, setActive] = useState(0)
     const activeRef = useRef(active)
